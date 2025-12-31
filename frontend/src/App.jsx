@@ -17,7 +17,7 @@ function App() {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/pastes", {
+      const response = await fetch("/api/pastes", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
