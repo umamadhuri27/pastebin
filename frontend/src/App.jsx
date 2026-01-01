@@ -17,7 +17,7 @@ function App() {
     }
 
     try {
-      const response = await fetch("/api/pastes", {
+      const response = await fetch("https://pastebin-backend-cjd9.onrender.com/api/pastes", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
